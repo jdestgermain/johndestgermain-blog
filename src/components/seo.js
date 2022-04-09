@@ -55,7 +55,7 @@ const Seo = ({ description, lang, meta, title }) => {
         {
           property: 'og:image',
           content: siteImage,
-        }
+        },
         {
           name: `twitter:card`,
           content: `summary`,
