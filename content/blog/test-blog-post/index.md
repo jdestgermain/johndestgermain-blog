@@ -1,7 +1,7 @@
 ---
-title: Test blog post
+title: My very first blog post
 date: 2022-04-09T03:20:04.481Z
-description: My very first blog post
+description: What are we even doing here?
 ---
 Hi!  My name is John de St. Germain.  I am from Louisiana, am currently 30, and have a beautiful wife and 3 kids. 
 
