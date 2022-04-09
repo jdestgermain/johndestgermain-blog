@@ -18,6 +18,7 @@ const Seo = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
+            siteImage
           }
         }
       }
@@ -52,12 +53,16 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: 'og:image',
+          content: siteImage,
+        }
+        {
           name: `twitter:card`,
           content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
+          content: `jdestger`,
         },
         {
           name: `twitter:title`,
