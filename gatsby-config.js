@@ -7,7 +7,7 @@ module.exports = {
     },
     description: `Just a blog for any of my thoughts`,
     siteUrl: `https://johndestgermain.com/`,
-    siteImage: '../images/profile-pic.jpg',
+    siteImage: 'src/images/profile-pic.jpg',
   },
   plugins: [
     `gatsby-plugin-image`,
